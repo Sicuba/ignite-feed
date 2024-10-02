@@ -1,8 +1,12 @@
+import { Header } from "./Header"
+import "./styles/global.css"
 function App() {
 
   return (
     <div>
-      <h1>Ola</h1>
+     <Header/>
+     <Header/>
+     <Header/>
     </div>
   )
 }
