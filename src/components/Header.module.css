@@ -1,0 +1,17 @@
+.header {
+  background: var(--gray-800);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem 0;
+  gap: 5px;
+}
+
+.header img{
+    width: 2.25rem;
+    cursor: pointer;
+}
+.header span{
+    color: var(--white);
+    cursor: pointer;
+}
