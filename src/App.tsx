@@ -2,6 +2,7 @@ import { Header } from "./components/Header";
 import styles from "./App.module.css";
 import "./styles/global.css";
 import { Aside } from "./components/Aside";
+import { Post } from "./components/Post";
 function App() {
   return (
     <div>
@@ -9,15 +10,10 @@ function App() {
       <div className={styles.wrapper}>
         <Aside/>
         <main>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-            doloribus omnis. Laborum voluptatibus sit{" "}
-          </p>
-          <p>
-            {" "}
-            architecto quis tempora quam culpa nemo omnis numquam sint eveniet,
-            similique impedit maiores! Ad, ut.
-          </p>
+          <Post/>
+          <Post/>
+          <Post/>
+          <Post/>
         </main>
       </div>
     </div>
