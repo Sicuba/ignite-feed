@@ -8,12 +8,10 @@ function App() {
     <div>
       <Header />
       <div className={styles.wrapper}>
-        <Aside/>
+        <Aside />
         <main>
-          <Post/>
-          <Post/>
-          <Post/>
-          <Post/>
+          <Post />
+          <Post />
         </main>
       </div>
     </div>

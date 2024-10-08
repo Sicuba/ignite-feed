@@ -1,5 +1,6 @@
 import {PencilLine} from "@phosphor-icons/react";
 import styles from "./Aside.module.css";
+import { Avatar } from "./Avatar";
 export function Aside() {
   return (
     <aside className={styles.aside}>
@@ -8,8 +9,7 @@ export function Aside() {
       />
       <div>
         <div  className={styles.profile}>
-        <img src="https://avatars.githubusercontent.com/u/113895967?v=4"
-        className={styles.avatar}
+        <Avatar src="https://avatars.githubusercontent.com/u/113895967?v=4"
         />
         <strong>Josevaldo Sicuba</strong>
         <span>Front End</span>
